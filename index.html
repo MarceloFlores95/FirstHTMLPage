@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Template</title>
+</head>
+
+<body>
+    <!-- Esto es un comentario -->
+    <div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+    </div>
+
+    <div>
+        This is a sidebar!
+    </div>
+    <div>
+        <h1>Welcome to our menu!</h1>
+    </div>
+    
+    <div>
+        <table> <!-- Esto es una tabla -->
+            <thead> <!-- Esto es una tag para indicar que se trata del encabezado de una tabla -->
+                <tr> <!-- Define un renglon en la tabla -->
+                    <th> <!-- Esto es hace que las palabras se pongan en bold y centradas -->
+                        Food
+                    </th>
+                    <th>
+                        Description
+                    </th>
+                    <th>
+                        Price
+                    </th>
+                </tr>
+            </thead>
+            <tbody> <!-- Esto define el resto de la tabla -->
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Salad
+                    </td>
+                    <td>
+                        Fresh, delicious Cobb Salad!
+                    </td>
+                    <td>
+                        $7.99
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Burger
+                    </td>
+                    <td>
+                        1/4 lb grass-fed burguer with choice of cheese
+                    </td>
+                    <td>
+                        $6.99
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Chicken Salad Sandwich
+                    </td>
+                    <td>
+                        Our world famous chicken salad on a bagel with homemade pickles
+                    </td>
+                    <td>
+                        $8.99
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Buffalo Chicken Sandwich
+                    </td>
+                    <td>
+                        Spicy fried chicken on a brioche bun
+                    </td>
+                    <td>
+                        $10.99
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Fries
+                    </td>
+                    <td>
+                        Hand cut potatoes lightly fried and seasoned
+                    </td>
+                    <td>
+                        $1.99
+                    </td>
+                </tr>
+                <tr>
+                    <td> <!-- Esto define una celda en la tabla -->
+                        Soda
+                    </td>
+                    <td>
+                        Regular, diet, orange, or root beer
+                    </td>
+                    <td>
+                        $1.00
+                    </td>
+                </tr>
+            </tbody>
+
+
+            <tfoot> <!-- Esto define un ultimo renglon en una tabla, es opcional -->
+                <tr>
+                
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+
+    <div>
+        <form>
+            <fieldset>
+                <legend>
+                    Leave us a comment
+                </legend>
+                <div>
+                    <label for="first-name">
+                        First name:
+                    </label>
+                    <input type="text"/>
+                </div>
+                <div>
+                    <label for="last-name">
+                        Last name:
+                    </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input type="text">
+                </div>
+                <div>
+                    <label for="phone">
+                        Phone number:
+                    </label>
+                    <input type="tel">
+                </div>
+
+                <div>
+                    <label for="rate-us">
+                        Rate us:
+                    </label>
+                    <br>
+                    <select name="rate-us" id="rate-us">
+                        <option value="1">Very Good</option>
+                        <option value="2">Good</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="comment">
+                        Your comment:
+                    </label>
+                </div>
+
+                <div>
+                    <textarea name="comment" id="" cols="60" rows="5"></textarea>
+                </div>
+                
+                <div>
+                    <label>
+                        Would you visit us again?
+                    </label>
+                    <br>
+                    <label>
+                        Yes
+                    </label>
+                    <input type="radio" name="visit">
+                    <br>
+                    <label>
+                        No
+                    </label>
+                    <input type="radio" name="visit">
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            
+            </fieldset>
+        </form>
+    </div>
+
+    <footer>This is where any content in the footer would go</footer>
+
+</body>
+</html>
