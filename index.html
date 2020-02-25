@@ -3,36 +3,38 @@
 
 <head>
     <title>Template</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
 <body>
     <!-- Esto es un comentario -->
     <div>
+        <h2>Welcome to our menu!</h2>
+    </div>
+    <div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Reviews</a></li>
+            <li class="menu">Home</li>
+            <li class="menu">About</li>
+            <li class="menu">Reviews</li>
         </ul>
     </div>
 
-    <div>
+    <section>
         This is a sidebar!
-    </div>
-    <div>
-        <h1>Welcome to our menu!</h1>
-    </div>
+    </section>
     
-    <div>
+    <section>
         <table> <!-- Esto es una tabla -->
             <thead> <!-- Esto es una tag para indicar que se trata del encabezado de una tabla -->
                 <tr> <!-- Define un renglon en la tabla -->
-                    <th> <!-- Esto es hace que las palabras se pongan en bold y centradas -->
+                    <th class="theading"> <!-- Esto es hace que las palabras se pongan en bold y centradas -->
                         Food
                     </th>
-                    <th>
+                    <th class="theading">
                         Description
                     </th>
-                    <th>
+                    <th class="theading">
                         Price
                     </th>
                 </tr>
@@ -113,7 +115,7 @@
                 </tr>
             </tfoot>
         </table>
-    </div>
+    </section>
 
 
     <div>
@@ -122,29 +124,31 @@
                 <legend>
                     Leave us a comment
                 </legend>
-                <div>
+
+                <span>We dont share information</span>
+                <div class="optionContainer">
                     <label for="first-name">
                         First name:
                     </label>
-                    <input type="text"/>
+                    <input type="text" class="formElement">
                 </div>
-                <div>
+                <div class="optionContainer">
                     <label for="last-name">
                         Last name:
                     </label>
-                    <input type="text">
+                    <input type="text" class="formElement">
                 </div>
-                <div>
+                <div class="optionContainer">
                     <label for="email">
                         Email:
                     </label>
-                    <input type="text">
+                    <input type="text" class="formElement">
                 </div>
-                <div>
+                <div class="optionContainer">
                     <label for="phone">
                         Phone number:
                     </label>
-                    <input type="tel">
+                    <input type="tel" class="formElement">
                 </div>
 
                 <div>
@@ -152,9 +156,12 @@
                         Rate us:
                     </label>
                     <br>
-                    <select name="rate-us" id="rate-us">
+                    <select name="rate" id="rate" >
                         <option value="1">Very Good</option>
                         <option value="2">Good</option>
+                        <option value="3">Okay</option>
+                        <option value="4">Not Good</option>
+                        <option value="5">Bad</option>
                     </select>
                 </div>
 
@@ -165,7 +172,7 @@
                 </div>
 
                 <div>
-                    <textarea name="comment" id="" cols="60" rows="5"></textarea>
+                    <textarea name="comment" id="" cols="60" rows="5" class="formElement"></textarea>
                 </div>
                 
                 <div>
@@ -185,7 +192,8 @@
                 </div>
 
                 <div>
-                    <button type="submit">Submit</button>
+                    <button type="reset" id= "resetButton" class = "clickable reset-btn">Reset</button>
+                    <button type="submit" id= "submitButton" class = "clickable submit-btn">Submit</button>
                 </div>
             
             </fieldset>

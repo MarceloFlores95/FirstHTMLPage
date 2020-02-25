@@ -1,0 +1,113 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    /*color: rgb(11,240,80);*/
+    color: #4F545F;
+    margin:0;
+    padding:0
+}
+
+h2 {
+    margin: 0;
+    background-color: #55B3C5;
+    color: white;
+    padding: 20px
+}
+
+fieldset {
+    border: 2px dashed #dddddd;
+    margin: 20px;
+    padding: 20px;
+    background-color: #CCE9F8;
+    display: block;
+}
+
+legend {
+    font-weight: 900;
+}
+
+.formElement {
+    padding: 5px 10px;
+    width: 300 px;
+}
+
+.optionContainer {
+    margin-top: 15px;
+}
+
+#rate {
+    width: 250px;
+}
+
+.clickable {
+    padding: 10px 20px;
+    margin-left: 15px;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.clickable:hover {
+    cursor: pointer;
+}
+
+.submit-btn {
+    background-color: #56C56F;
+}
+
+.submit-btn:hover {
+    background-color: rgb(147,238,168);
+}
+
+.reset-btn {
+    background-color: #d9534F;
+}
+
+.reset-btn:hover {
+    background-color: rgb(235,121,117);
+}
+
+p {
+    border : 1px
+}
+
+ul{
+    background-color: #cccccc;
+    list-style: none;
+    margin:0;
+    padding: 0;
+    overflow: auto;
+}
+/*Aprender que es overflow y float*/
+li {
+    float: left;
+    padding: 20px;
+}
+
+li:hover {
+    background-color: #999999;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    margin: 15px auto;
+    border: 1px solid #f4f4f4;
+    border-collapse: collapse;
+}
+
+th.theading {
+    background-color: #55B3C5;
+    color: white
+}
+
+td, th {
+    color: #999999;
+    border: 1px solid #f4f4f4;
+    padding: 15px 35px;
+}
+
+tr:hover{
+    color: #555555;
+    background-color: #f4f4f4;
+}
