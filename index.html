@@ -4,7 +4,7 @@
 <head>
     <title>Template</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
 </head>
 
 <body>
@@ -131,24 +131,28 @@
                         First name:
                     </label>
                     <input type="text" class="formElement">
+                    <span class="error" style="color: red;"></span>
                 </div>
                 <div class="optionContainer">
                     <label for="last-name">
                         Last name:
                     </label>
                     <input type="text" class="formElement">
+                    <span class="error" style="color: red;"></span>
                 </div>
                 <div class="optionContainer">
                     <label for="email">
                         Email:
                     </label>
                     <input type="text" class="formElement">
+                    <span class="error" style="color: red;"></span>
                 </div>
                 <div class="optionContainer">
                     <label for="phone">
                         Phone number:
                     </label>
                     <input type="tel" class="formElement">
+                    <span class="error" style="color: red;"></span>
                 </div>
 
                 <div>
@@ -175,7 +179,7 @@
                     <textarea name="comment" id="" cols="60" rows="5" class="formElement"></textarea>
                 </div>
                 
-                <div>
+                <div class="radioForm">
                     <label>
                         Would you visit us again?
                     </label>
@@ -189,7 +193,9 @@
                         No
                     </label>
                     <input type="radio" name="visit">
+                    <span class="error" style="color: red;"></span>
                 </div>
+                
 
                 <div>
                     <button type="reset" id= "resetButton" class = "clickable reset-btn">Reset</button>
@@ -201,6 +207,8 @@
     </div>
 
     <footer>This is where any content in the footer would go</footer>
+
+    <script src="./js/index.js" type="text/javascript"></script>
 
 </body>
 </html>
